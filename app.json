@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "trakr",
+    "slug": "trakr",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.trakr"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.trakr"
+    },
+    "web": {},
+    "plugins": [
+      "expo-sqlite"
+    ]
+  }
+}
