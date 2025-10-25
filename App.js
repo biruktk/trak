@@ -132,6 +132,7 @@ export default function App() {
 
       <Modal
         visible={visible}
+        
         transparent={true}
         animationType="slide"
         onRequestClose={() => setVisible(false)}
