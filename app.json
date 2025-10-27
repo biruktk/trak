@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "scheme": "trakr",  // Optional: for deep linking
     "newArchEnabled": true,
     "splash": {
       "resizeMode": "contain",
@@ -23,7 +24,8 @@
     },
     "web": {},
     "plugins": [
-      "expo-sqlite"
+      "expo-sqlite",
+      "expo-router"
     ]
   }
 }
