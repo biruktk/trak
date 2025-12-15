@@ -1,8 +1,38 @@
-import { registerRootComponent } from 'expo';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-import App from './App';
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+    }
+
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://YOUR-CPANEL-DOMAIN.com"
+    loading="eager"
+    referrerpolicy="no-referrer"
+    allowfullscreen
+  ></iframe>
+</body>
+</html>
